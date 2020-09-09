@@ -1,7 +1,7 @@
 # Android View Hierarchy Diagram Generator
 A simple tool that uses Graphviz to generate View Hierarchy diagrams from Android layout resources in the form of XML files.
 ###### NOTE: This code is UGLY and hacked together in a few hours. Maybe I'll make it look more presentable in the future.
-##Setup
+## Setup
 This program requires Python3 to run. It should work on anything >= Python3.4, but has only been run on Python3.6. 
 - Install Graphviz for your OS at the following URL: http://www.graphviz.org/download/
 
