@@ -4,6 +4,8 @@ A simple tool that uses Graphviz to generate View Hierarchy diagrams from Androi
 ## Setup
 This program requires Python3 to run. It should work on anything >= Python3.4, but has only been run on Python3.6. 
 - Install Graphviz for your OS at the following URL: http://www.graphviz.org/download/
+    
+    *If the `pygraphviz` python module fails to build after installing Graphviz, it may be necessary to install a different version of the software that includes development headers. For Ubuntu/Debian users, the `graphviz-dev` package works and can be installed through aptitude.*
 
 - Install python dependencies (currently only pygraphviz):
     ```
